@@ -1,0 +1,30 @@
+[ 2015-11-27T11:23:28+08:00 ] 127.0.0.1 /index.php/js/signin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Js
+
+[ 2015-11-27T12:33:13+08:00 ] 127.0.0.1 /index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-11-27T15:11:27+08:00 ] 127.0.0.1 /index.php/Admin/Home/View/Index/css/signin.css
+ERR: 无法加载模块:Admin
+
+[ 2015-11-27T15:11:28+08:00 ] 127.0.0.1 /index.php/Admin/Home/View/Index/js/signin.js
+ERR: 无法加载模块:Admin
+
+[ 2015-11-27T15:11:28+08:00 ] 127.0.0.1 /index.php/Public/Admin/js/md5.js
+ERR: 无法加载模块:Public
+
+[ 2015-11-27T15:12:50+08:00 ] 127.0.0.1 /index.php/Admin/Home/View/Index/css/signin.css
+ERR: 无法加载模块:Admin
+
+[ 2015-11-27T15:12:50+08:00 ] 127.0.0.1 /index.php/Admin/Home/View/Index/js/signin.js
+ERR: 无法加载模块:Admin
+
+[ 2015-11-27T15:12:50+08:00 ] 127.0.0.1 /index.php/Public/Admin/js/md5.js
+ERR: 无法加载模块:Public
+

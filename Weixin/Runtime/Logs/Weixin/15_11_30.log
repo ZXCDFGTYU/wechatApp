@@ -1,0 +1,38 @@
+[ 2015-11-30T17:52:05+08:00 ] 127.0.0.1 /weixin.php/MessageGet/messageGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'rb2bv17q34e7r3wi.w_msg_response' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `w_msg_response`
+ERR: 1146:Table 'rb2bv17q34e7r3wi.w_msg_response' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `w_msg_response`
+
+[ 2015-11-30T17:52:25+08:00 ] 127.0.0.1 /weixin.php/MessageGet/messageGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `w_weixin_response` [ RunTime:0.0330s ]
+SQL: INSERT INTO `w_weixin_response` (`content`) VALUES ('false') [ RunTime:0.0330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-30T17:55:22+08:00 ] 127.0.0.1 /weixin.php/MessageGet/messageGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `w_weixin_response` [ RunTime:0.0330s ]
+SQL: INSERT INTO `w_weixin_response` (`content`) VALUES ('false') [ RunTime:0.0320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
